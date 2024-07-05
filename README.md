@@ -1,14 +1,12 @@
-# TravelCrafter 🌐
+# Stayscout 🌐
 
-## Overview
+Welcome to TravelCrafter! This project offers essential features allowing users to register, create property listings, and rate other users' listings. The application employs Mapbox to showcase precise locations, MongoDB for efficient data storage, and Cloudinary for storing images.
 
-Welcome to TravelCrafter! This project offers fundamental features allowing users to register, create property listings, and rate other's listings. 
-The application employs Mapbox to showcase precise locations, MongoDB for efficient data storage, and Cloudinary as the designated cloud service for storing images.
 ## Features 🚀
 
 1. **User Authentication**
    - Users can sign up and log in to the platform.
-   - Sessions are managed with the help of signed cookies.
+   - Sessions are managed with signed cookies for secure authentication.
 
 2. **Listing Creation**
    - Registered users can create listings for properties they want to rent or share.
@@ -25,23 +23,29 @@ The application employs Mapbox to showcase precise locations, MongoDB for effici
 5. **Image Storage on Cloudinary**
    - Images associated with listings are securely stored on Cloudinary.
    - Cloudinary serves as a reliable cloud service for managing and delivering images.
-    
+
 6. **MVC Framework**
    - The project follows the Model-View-Controller (MVC) architectural pattern for organized and scalable development.
 
 ## Technologies Used 🛠️
 
-- **Frontend**
-  - HTML, CSS, JavaScript
-  - Mapbox for map integration
+### Frontend
+- **HTML, CSS, JavaScript**
+- **Mapbox**: For map integration
 
-- **Backend**
-  - Node.js with Express.js framework
-  - MongoDB Atlas for online data storage
-  - Passport library for authentication
-  - Cloudinary for image storage
- 
-https://github.com/NikhilKalloli/TravelCrafter/assets/123582746/66b44e44-2a4e-458c-b623-efb3dcdaffc6
+### Backend
+- **Node.js**: With the Express.js framework
+- **MongoDB Atlas**: For online data storage
+- **Passport**: For authentication
+- **Cloudinary**: For image storage
+
+## Installation and Setup ⚙️
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Nitya-Kalloli/Stayscout.git
+   cd TravelCrafter
+
 
 
 ## 📂 File Structure
@@ -101,7 +105,7 @@ https://github.com/NikhilKalloli/TravelCrafter/assets/123582746/66b44e44-2a4e-45
 
 1. Clone the repository:
    ```
-   git clone https://github.com/NikhilKalloli/TravelCrafter.git
+   git clone https://github.com/Nitya-Kalloli/Stayscout.git
    ```
    
 2. Navigate to the project directory:    
@@ -128,9 +132,9 @@ https://github.com/NikhilKalloli/TravelCrafter/assets/123582746/66b44e44-2a4e-45
   
  ## Contributing
 
-Contributions are welcome! If you have any improvements or new features to suggest, please create a pull request.
+Contributions are welcome! If you have any improvements or new features to suggest,  create a pull request.
 
-Enjoy playing the with the code! If you have any questions or issues, feel free to [open an issue](https://github.com/NikhilKalloli/TravelCrafter/issues).
+Enjoy playing the with the code! If you have any questions or issues, feel free to [open an issue](https://github.com/Nitya-Kalloli/Stayscout/issues).
 
 ## License 📑
 
@@ -144,11 +148,11 @@ Special thanks to [Mapbox](https://www.mapbox.com/), [MongoDB Atlas](https://www
 #  Connect with Me
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/NikhilKalloli)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-kalloli-a6ab2a25b/)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitya-kalloli-81572a24a)
 ## Feedback
 
-If you have any feedback, please reach out to me at nikhilkalloli0097@gmail.com
+If you have any feedback, please reach out to me at  nityakalloli.dev@gmail.com
+
 
 
    

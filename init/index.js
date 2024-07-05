@@ -1,4 +1,7 @@
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+
+
 
 const mongoose = require("mongoose");
 const initData = require("./data.js");
@@ -21,6 +24,7 @@ main()
   });
 
 async function main() {
+  console.log(dbUrl);
   await mongoose.connect(dbUrl);
 }
 
@@ -32,15 +36,15 @@ cloudinary.config({
 });
 
 
-const initDB = async () => {
-  await Listing.deleteMany({});
-  initData.data = initData.data.map((obj)=>({...obj, owner: process.env.DB_ADMIN_ID}));
-  let listings = await Listing.insertMany(initData.data);
-  console.log("data was initialized");
-};
+// const initDB = async () => {
+//   await Listing.deleteMany({});
+//   initData.data = initData.data.map((obj)=>({...obj, owner: process.env.DB_ADMIN_ID}));
+//   let listings = await Listing.insertMany(initData.data);
+//   console.log("data was initialized");
+// };
 
 
-initDB();
+// initDB();
 
 /* ********** This code it to upload the images to cloudinary so that we get the cropped preview whenever we try to edit ********
    ********** This is only for the images in data.js. New listings image will be stored automatically ************
@@ -48,7 +52,7 @@ initDB();
 */
 
 
-/*
+
 const initDB = async () => {
   try {
     //To clear existing listings before inserting new ones
@@ -107,4 +111,4 @@ const initDB = async () => {
 
 initDB();
 
-*/
+
