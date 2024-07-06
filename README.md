@@ -1,4 +1,4 @@
-# Stayscout 🌐
+# StayScout 🌐
 
 Welcome to TravelCrafter! This project offers essential features allowing users to register, create property listings, and rate other users' listings. The application employs Mapbox to showcase precise locations, MongoDB for efficient data storage, and Cloudinary for storing images.
 
